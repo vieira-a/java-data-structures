@@ -7,24 +7,8 @@ package kb.java.datastructures;
 
 public class ArraysExec3 {
     public static void main(String[] args) {
-        int[] arrayA = new int[15];
-        int[] arrayB = new int[15];
-
-        arrayA[0] = 1;
-        arrayA[1] = 2;
-        arrayA[2] = 3;
-        arrayA[3] = 4;
-        arrayA[4] = 5;
-        arrayA[5] = 6;
-        arrayA[6] = 7;
-        arrayA[7] = 8;
-        arrayA[8] = 9;
-        arrayA[9] = 10;
-        arrayA[10] = 11;
-        arrayA[11] = 12;
-        arrayA[12] = 13;
-        arrayA[13] = 14;
-        arrayA[14] = 15;
+        int[] arrayA = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
+        int[] arrayB = new int[arrayA.length];
 
         for (int i = 0; i < arrayA.length; i++) {
             System.out.println("A: " + (arrayA[i]) + " A² > " + "B: " + (arrayB[i] = arrayA[i] * arrayA[i]));

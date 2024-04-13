@@ -2,12 +2,20 @@ package kb.java.datastructures;
 
 public class Arrays {
     public static void main(String[] args) {
+
+        /*
+        conventional declaration
+
         double[] temperatures = new double[5];
         temperatures[0] = 30.0;
         temperatures[1] = 28.5;
         temperatures[2] = 31.7;
         temperatures[3] = 32.9;
         temperatures[4] = 30.4;
+        * */
+
+        //alternative
+        double[] temperatures = new double[] {30.0, 28.5, 31.7, 32.9, 30.4};
 
         // if you need the index
         for (int i = 0; i < temperatures.length; i++) {

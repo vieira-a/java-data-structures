@@ -8,24 +8,8 @@ package kb.java.datastructures;
 
 public class ArraysExec4 {
     public static void main(String[] args) {
-        double[] arrayA = new double[15];
-        double[] arrayB = new double[15];
-
-        arrayA[0] = 2;
-        arrayA[1] = 4;
-        arrayA[2] = 9;
-        arrayA[3] = 16;
-        arrayA[4] = 25;
-        arrayA[5] = 36;
-        arrayA[6] = 49;
-        arrayA[7] = 64;
-        arrayA[8] = 81;
-        arrayA[9] = 100;
-        arrayA[10] = 121;
-        arrayA[11] = 144;
-        arrayA[12] = 169;
-        arrayA[13] = 196;
-        arrayA[14] = 225;
+        double[] arrayA = new double[]{2, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225};
+        double[] arrayB = new double[arrayA.length];
 
         for (int i = 0; i < arrayA.length; i++) {
             System.out.println("A: " + (arrayA[i]) + " sqrt(A) > " + "B: " + (arrayB[i] = Math.sqrt(arrayA[i])));
