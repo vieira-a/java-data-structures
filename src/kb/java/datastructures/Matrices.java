@@ -2,6 +2,10 @@ package kb.java.datastructures;
 
 public class Matrices {
     public static void main(String[] args) {
+        double[][] studentsNotes = new double[][]{{9, 8.5, 7, 8}, {7, 9.5, 6, 7.5}};
+
+        /*
+        conventional
         double[][] studentsNotes = new double[2][4];
 
         studentsNotes[0][0] = 9;
@@ -13,6 +17,7 @@ public class Matrices {
         studentsNotes[1][1] = 9.5;
         studentsNotes[1][2] = 6;
         studentsNotes[1][3] = 7.5;
+        */
 
         for (int i = 0; i < studentsNotes.length; i++) {
             for (int j = 0; j < studentsNotes[i].length; j++) {
